@@ -1,0 +1,50 @@
+.DS_Store
+node_modules
+dist
+dist-ssr
+# misc
+*.pem
+.secret
+.infuraid
+
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+/instrumented
+/coverage
+.nyc_output
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.local
+LOCAL_NOTES.md
+
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+
+# 部署合约后的地址
+address.config.js
+
+# pinata 配置
+pinata.config.js

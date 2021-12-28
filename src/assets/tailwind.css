@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md cursor-pointer focus:outline-none;
+  }
+
+  .btn-sm {
+    @apply px-3 py-1 text-sm;
+  }
+
+  .btn-md {
+    @apply px-4 py-2;
+  }
+
+  .btn-indigo {
+    @apply bg-indigo-600 hover:bg-indigo-500;
+  }
+
+  .btn-white {
+    @apply text-indigo-500 bg-white;
+  }
+}
