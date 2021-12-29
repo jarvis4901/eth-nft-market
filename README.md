@@ -12,6 +12,7 @@
 
 ### 库和工具
 
+- 钱包 MetaMask
 - 合约 [Solidity](https://solidity-cn.readthedocs.io/zh/develop/index.html)
 - 以太坊开发环境 [Hardhat](https://hardhat.org/)
 - IPFS 存储第三方平台 [Pinata](https://www.pinata.cloud/)
@@ -19,6 +20,48 @@
 - 其它相关库
   - [web3Modal](https://github.com/Web3Modal/web3modal)
   - [ethers.js](https://github.com/ethers-io/ethers.js)
+
+### 启动流程
+> 这里用的包管理工具为pnpm，也可以用yarn或npm
+##### 1. 安装依赖
+```
+pnpm install
+```
+##### 2. 配置hardhat
+```
+// hardhat.config.js 具体配置项说明可查看hardhat文档
+...
+ defaultNetwork: "hardhat",
+  networks: {
+    hardhat: {
+      chainId: 1342, //若填有此配置项 启动时会根据此配置项 启动对应chainId的节点
+    },
+  },
+  solidity: {
+    version: "0.8.4",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+    },
+  }
+...
+```
+##### 3. 通过hardhat启动节点
+```
+npx hardhat node 
+```
+##### 4. 编译&发布合约
+```
+npx hardhat  run --network localhost .\scripts\deploy.js
+// 其中deploy.js中相关细节可查看hardhat文档
+```
+##### 5. 启动前端页面服务
+```
+pnpm run dev
+```
+##### 6. 访问本地端口进行测试 默认的地址为localhost:3000
 
 <!-- ### 演示
 ![发布NFT](./screenshots/发布nft.gif)
