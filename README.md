@@ -50,11 +50,11 @@ pnpm install
 ```
 ##### 3. 通过hardhat启动节点
 ```
-npx hardhat node 
+pnpm hardhat node 
 ```
 ##### 4. 编译&发布合约
 ```
-npx hardhat  run --network localhost .\scripts\deploy.js
+pnpm hardhat  run --network localhost .\scripts\deploy.js
 // 其中deploy.js中相关细节可查看hardhat文档
 ```
 ##### 5. 启动前端页面服务
