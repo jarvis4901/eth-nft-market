@@ -63,10 +63,11 @@ pnpm run dev
 ```
 ##### 6. 访问本地端口进行测试 默认的地址为localhost:3000
 
-<!-- ### 演示
+### 演示
 ![发布NFT](./screenshots/发布nft.gif)
-![购买NFT](./screenshots/购买nft.gif) -->
+![购买NFT](./screenshots/购买nft.gif)
 
 
 ### 参考
 -   [polygon-ethereum-nextjs-marketplace](https://github.com/dabit3/polygon-ethereum-nextjs-marketplace) -  dabit3
+
