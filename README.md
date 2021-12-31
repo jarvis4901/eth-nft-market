@@ -1,40 +1,43 @@
-# 基于以太坊 Ethereum 和 IPFS 的 NFT 市场 DApp DEMO
+# A marketplace for NFTs based on eth and ipfs
 
-> 此 demo 只用于参考学习，并只在本地环境测试过
+[中文文档](README_ZH.md)
+
+> This demo is for study only
 
 
-### 主要功能
 
-- 发布自己的 NFT 产品(目前仅限定于图片或文字)
-- 在列表页中展示市场上所有待售的 NFT 资产
-- 购买其余用户发布的 NFT 资产
-- 在“我的”页面进行展示我发布过的 NFT 资产以及我购得的 NFT 资产
+### Features
 
-### 库和工具
+- Publish your own NFT product (currently limited to images only)
+- Show all NFT assets for sale in the market on the list page
+- Purchase NFT assets published by other users
+- Display the NFT assets I have published and the NFT assets I have purchased on the "My" page
 
-- 钱包 MetaMask
-- 合约 [Solidity](https://solidity-cn.readthedocs.io/zh/develop/index.html)
-- 以太坊开发环境 [Hardhat](https://hardhat.org/)
-- IPFS 存储第三方平台 [Pinata](https://www.pinata.cloud/)
-- 前端 [Vue](https://v3.vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/) + [Typescript](https://www.typescriptlang.org/)
-- 其它相关库
+### Libaries & Tools
+
+- Wallet MetaMask
+- Contracts [Solidity](https://docs.soliditylang.org/en/v0.8.11/)
+- Ethereum development environment [Hardhat](https://hardhat.org/)
+- IPFS stores [Pinata](https://www.pinata.cloud/)
+- Frontend [Vue](https://v3.vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/) + [Typescript](https://www.typescriptlang.org/)
+- Others
   - [web3Modal](https://github.com/Web3Modal/web3modal)
   - [ethers.js](https://github.com/ethers-io/ethers.js)
 
-### 启动流程
-> 这里用的包管理工具为pnpm，也可以用yarn或npm
-##### 1. 安装依赖
+### Installation & Start
+> you can use yarn or npm too
+##### 1. install packages
 ```
 pnpm install
 ```
-##### 2. 配置hardhat
+##### 2. hardhat configuration
 ```
-// hardhat.config.js 具体配置项说明可查看hardhat文档
+// hardhat.config.js -- Specific configuration item descriptions are available in the hardhat documentation
 ...
  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1342, //若填有此配置项 启动时会根据此配置项 启动对应chainId的节点
+      chainId: 1342, //If this configuration item is filled in, the node corresponding to chainId is started based on the configuration item
     },
   },
   solidity: {
@@ -48,20 +51,20 @@ pnpm install
   }
 ...
 ```
-##### 3. 通过hardhat启动节点
+##### 3. run node by hardhat
 ```
 pnpm hardhat node 
 ```
-##### 4. 编译&发布合约
+##### 4. compile & deploy 
 ```
 pnpm hardhat  run --network localhost .\scripts\deploy.js
-// 其中deploy.js中相关细节可查看hardhat文档
+// you can find more details in the hardhat documentation
 ```
-##### 5. 启动前端页面服务
+##### 5. start the front-end
 ```
 pnpm run dev
 ```
-##### 6. 访问本地端口进行测试 默认的地址为localhost:3000
+##### 6. visit the address: localhost:3000 (default port:3000) 
 
 ### 演示
 ![发布NFT](./screenshots/发布nft.gif)
