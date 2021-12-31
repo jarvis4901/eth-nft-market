@@ -1,6 +1,6 @@
 # A marketplace for NFTs based on eth and ipfs
 
-[中文文档](README_ZH.md)
+[中文](README_ZH.md)
 
 > This demo is for study only
 
