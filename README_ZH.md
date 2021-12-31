@@ -1,7 +1,9 @@
 # 基于以太坊 Ethereum 和 IPFS 的 NFT 市场 DApp DEMO
 
-> 此 demo 只用于参考学习
 [English](README.md)
+
+> 此 demo 只用于参考学习
+
 
 ### 主要功能
 
