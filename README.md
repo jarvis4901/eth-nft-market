@@ -55,7 +55,7 @@ pnpm install
 ```
 pnpm hardhat node 
 ```
-##### 4. compile & deploy 
+##### 4. compile & deploy contracts
 ```
 pnpm hardhat  run --network localhost .\scripts\deploy.js
 // you can find more details in the hardhat documentation
@@ -64,7 +64,10 @@ pnpm hardhat  run --network localhost .\scripts\deploy.js
 ```
 pnpm run dev
 ```
-##### 6. visit the address: localhost:3000 (default port:3000) 
+##### 6. preview 
+```
+localhost:3000  //3000 is the default port
+```
 
 ### 演示
 ![发布NFT](./screenshots/发布nft.gif)
