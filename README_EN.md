@@ -4,15 +4,6 @@
 
 > This demo is for study only
 
-
-
-### Features
-
-- Publish your own NFT product (currently limited to images only)
-- Show all NFT assets for sale in the market on the list page
-- Purchase NFT assets published by other users
-- Display the NFT assets I have published and the NFT assets I have purchased on the "My" page
-
 ### Libaries & Tools
 
 - Wallet MetaMask
@@ -23,6 +14,15 @@
 - Others
   - [web3Modal](https://github.com/Web3Modal/web3modal)
   - [ethers.js](https://github.com/ethers-io/ethers.js)
+
+### Features
+
+- Publish your own NFT product (currently limited to images only)
+- Show all NFT assets for sale in the market on the list page
+- Purchase NFT assets published by other users
+- Display the NFT assets I have published and the NFT assets I have purchased on the "My" page
+
+
 
 ### Installation & Start
 > you can use yarn or npm too

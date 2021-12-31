@@ -4,14 +4,6 @@
 
 > 此 demo 只用于参考学习
 
-
-### 主要功能
-
-- 发布自己的 NFT 产品(目前仅限定于图片)
-- 在列表页中展示市场上所有待售的 NFT 资产
-- 购买其余用户发布的 NFT 资产
-- 在“我的”页面进行展示我发布过的 NFT 资产以及我购得的 NFT 资产
-
 ### 库和工具
 
 - 钱包 MetaMask
@@ -22,6 +14,14 @@
 - 其它相关库
   - [web3Modal](https://github.com/Web3Modal/web3modal)
   - [ethers.js](https://github.com/ethers-io/ethers.js)
+
+### 主要功能
+
+- 发布自己的 NFT 产品(目前仅限定于图片)
+- 在列表页中展示市场上所有待售的 NFT 资产
+- 购买其余用户发布的 NFT 资产
+- 在“我的”页面进行展示我发布过的 NFT 资产以及我购得的 NFT 资产
+
 
 ### 启动流程
 > 这里用的包管理工具为pnpm，也可以用yarn或npm
