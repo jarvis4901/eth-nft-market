@@ -1,4 +1,4 @@
-# 基于以太坊 Ethereum 和 IPFS 的 NFT 市场 DApp DEMO
+# 基于以太坊 Ethereum、IPFS和Vue3 的 NFT 市场 DApp DEMO
 
 [English](README_EN.md)
 
@@ -10,7 +10,7 @@
 - 合约 [Solidity](https://solidity-cn.readthedocs.io/zh/develop/index.html)
 - 以太坊开发环境 [Hardhat](https://hardhat.org/)
 - IPFS 存储第三方平台 [Pinata](https://www.pinata.cloud/)
-- 前端 [Vue](https://v3.vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/) + [Typescript](https://www.typescriptlang.org/)
+- 前端 [Vue3](https://v3.vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/) + [Typescript](https://www.typescriptlang.org/)
 - 其它相关库
   - [web3Modal](https://github.com/Web3Modal/web3modal)
   - [ethers.js](https://github.com/ethers-io/ethers.js)

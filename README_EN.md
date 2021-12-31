@@ -10,7 +10,7 @@
 - Contracts [Solidity](https://docs.soliditylang.org/en/v0.8.11/)
 - Ethereum development environment [Hardhat](https://hardhat.org/)
 - IPFS stores [Pinata](https://www.pinata.cloud/)
-- Frontend [Vue](https://v3.vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/) + [Typescript](https://www.typescriptlang.org/)
+- Frontend [Vue3](https://v3.vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/) + [Typescript](https://www.typescriptlang.org/)
 - Others
   - [web3Modal](https://github.com/Web3Modal/web3modal)
   - [ethers.js](https://github.com/ethers-io/ethers.js)
