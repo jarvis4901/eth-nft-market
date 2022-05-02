@@ -44,7 +44,7 @@ cache
 artifacts
 
 # 部署合约后的地址
-address.config.js
+#address.config.js
 
 # pinata 配置
-pinata.config.js
+#pinata.config.js
